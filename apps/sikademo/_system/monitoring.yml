@@ -64,12 +64,12 @@ spec:
               cert-manager.io/cluster-issuer: letsencrypt
               nginx.ingress.kubernetes.io/proxy-body-size: 20m
             hosts:
-              - grafana.cro.sikademo.com
+              - grafana.k8s.sikademo.com
             paths:
               - /
             tls:
               - hosts:
-                  - grafana.cro.sikademo.com
+                  - grafana.k8s.sikademo.com
                 secretName: grafana-tls
 
           serviceMonitor:
@@ -77,7 +77,7 @@ spec:
 
           grafana.ini:
             server:
-              root_url: https://grafana.cro.sikademo.com
+              root_url: https://grafana.k8s.sikademo.com
             auth.basic:
               enabled: true
             auth:
