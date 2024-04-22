@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
-  project: default
+  project: app-of-apps
   source:
     path: apps/sikademo
     repoURL: https://github.com/sika-training-examples/2024-02-22-argocd-apps.git
