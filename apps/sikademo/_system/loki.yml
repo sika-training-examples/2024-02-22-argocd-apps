@@ -34,7 +34,7 @@ spec:
         monitoring:
           selfMonitoring:
             grafanaAgent:
-              installOperator: false
+              installOperator: true
 
         minio:
           enabled: true
