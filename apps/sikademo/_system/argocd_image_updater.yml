@@ -13,5 +13,5 @@ spec:
       selfHeal: true
   source:
     repoURL: https://github.com/argoproj-labs/argocd-image-updater
-    targetRevision: v0.12.2
+    # targetRevision: v0.12.2
     path: ./manifests
