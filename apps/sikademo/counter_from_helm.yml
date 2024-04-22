@@ -21,4 +21,4 @@ spec:
     path: .
     helm:
       valuesObject:
-        host: counter-from-helm.k8s.sikademo.com
+        host: counter.k8s.sikademo.com
